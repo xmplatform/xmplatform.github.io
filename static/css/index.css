@@ -14,10 +14,10 @@ a:hover{ text-decoration:underline;}
 .top{ width:100%; position:absolute; top:0; left:0; right:0; z-index:999;}
 .top a{ color:#fff;}
 .top .cont{ margin:0 auto; width:70%;}
-/*.top .logo{ background:url(../images/logo.png?v=20160805) no-repeat; margin:30px 0 0 30px; width:160px; height:44px; float:left;}*/
+.top .logo{ background:url(../images/XmPlatform_64.ico) no-repeat; margin:3px; width:137px; height:64px; float:left;}
 .top.scroll{ position:fixed; background:#fff; background:rgba(255,255,255,0.97); min-height:50px; border-bottom:1px solid #ddd;}
 .top.scroll a{ color:#333;}
-.top.scroll .logo{ background-position:0 -55px; margin:5px 0 0 30px;}
+.top.scroll .logo{ background-position:0 0px; margin:0px;}
 .top.scroll ul.nav{ margin:17px 0 0;}
 .top.scroll ul.nav input[type="text"]{ display:block;}
 .top.scroll ul.nav a.topreg{ display:inline-block;}
@@ -26,8 +26,8 @@ a:hover{ text-decoration:underline;}
 .top.scroll ul.nav a.toplogin:active{ background:#ebebeb;}
 .top.scroll ul.nav .subnav{ background:#fff; background:rgba(255,255,255,0.97); box-shadow:0px 4px 6px 0 rgba(0, 0, 0, 0.2); *border:1px solid #eee; border:1px solid #eee\0;}
 .top.scroll ul.nav a.addvalue:hover{ color:#666;}
-ul.nav-list{ margin: 0; margin-left:40px; padding: 50px 0 0; list-style: none; float: left;}
-.top.scroll ul.nav-list{ padding: 15px 0 0;}
+ul.nav-list{ margin: 0; margin-left:40px; padding: 26px 0 0; list-style: none; float: left;}
+.top.scroll ul.nav-list{ padding: 16px 0 0;}
 ul.nav-list li{ margin:0 5px; float: left; position: relative;}
 ul.nav-list li a{ padding: 0 12px;}
 ul.nav-list li a.addvalue{ position: relative; z-index: 1000;}
@@ -40,8 +40,8 @@ ul.nav-list li .subnav.hide{ display: none;}
 ul.nav-list a:hover{ text-decoration: none; color: #fc7022;}
 
 /* 右侧登录注册按钮 */
-ul.topright{ margin: 0; padding: 42px 30px 0 0; list-style: none; float: right;}
-.top.scroll ul.topright{ padding: 8px 30px 0 0;}
+ul.topright{ margin: 0; padding: 22px 0 0 0; list-style: none; float: right;}
+.top.scroll ul.topright{ padding: 12px 0 0 0;}
 ul.topright li{ margin: 0 0 0 10px; float: left;}
 .top.scroll ul.topright li{ display: block;}
 ul.topright li a{ padding: 0 16px; height: 30px; line-height: 30px; border:1px solid #fff; display: inline-block; text-align: center; border-radius: 2px; opacity: 0.97; filter:alpha(opacity=97); font-size: 12px;}
