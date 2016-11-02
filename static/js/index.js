@@ -11,7 +11,7 @@
 
 
 		//导航显示子菜单
-		$("ul.nav-list li:eq(3)").hover(
+		$("ul.nav-list li:eq(5)").hover(
 		function(){
 			$(".subnav").removeClass("hide");
 		},
@@ -27,11 +27,11 @@
 		});
 
 		//浮动导航显示子菜单
-		$("ul.nav-list li:eq(3)").hover(function(){
+		$("ul.nav-list li:eq(5)").hover(function(){
 			$(".subnav").removeClass("hide");
 			$("ul.nav-list .addvalue").addClass("hover");
 		});
-		$("ul.nav-list li:eq(3)").mouseleave(function(){
+		$("ul.nav-list li:eq(5)").mouseleave(function(){
 			$(".subnav").addClass("hide");
 			$("ul.nav-list .addvalue").removeClass("hover");
 		});
