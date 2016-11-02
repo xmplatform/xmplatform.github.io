@@ -425,12 +425,12 @@ a.bottom-reg:hover{ text-decoration:none; color:#fff; background:rgba(255,255,25
 .news-wrap{ margin:20px 0 40px; position:relative; min-height:280px; font-size:14px;}
 .sub-content{ margin:10px 0 0; min-height:280px;}
 .sub-banner{ margin:51px 0 0; background:#29e;}
-.sub-banner .news-banner{ background:url(../images/sub-banner-newbg.png) right center no-repeat; margin:0 auto; width:1000px; height:150px; color:#fff; overflow:hidden; text-align:left;}
-.sub-banner .news-banner.contact{ background-image:url(../images/sub-banner-contactbg.png);}
-/*.sub-banner .news-banner.state{ background-image:url(../images/sub-banner-statebg.png);}
+.sub-banner .news-banner{ margin:0 auto; width:1000px;  color:#fff; overflow:hidden; text-align:left;}
+/*.sub-banner .news-banner.contact{ background-image:url(../images/sub-banner-contactbg.png);}
+.sub-banner .news-banner.state{ background-image:url(../images/sub-banner-statebg.png);}
 .sub-banner .news-banner.product{ background-image:url(../images/sub-banner-productbg.png);}
 .sub-banner .news-banner.job{ background-image:url(../images/sub-banner-jobbg.png);}*/
-.sub-banner h2{ margin:35px 0 0 0; font-size:50px; font-weight:normal;}
+.sub-banner h2{ margin:25px 0 0 0; font-size:50px; font-weight:normal;}
 .sub-banner h4{ margin:10px 0 0; font-size:20px; font-weight:normal; line-height:1.4; display:none;}
 .sub-nav{ margin:15px auto 0; padding:0 0 5px; font-size:16px; color:#999; text-align:left;}
 .sub-nav a{ color:#999;}
